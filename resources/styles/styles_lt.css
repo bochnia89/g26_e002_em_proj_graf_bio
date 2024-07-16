@@ -129,12 +129,16 @@ dd sup {
 
 /*👉 CLASSES RESERVADAS DIGITAL 👈*/
 /* 
+d0box_aluno
+d0box_geralmp
+d0box_especificompu
+d0box_resolucoesmp
+d0box_respostas
+
 aluno
 professor
 url_para_encurta
 pag
-box_aluno
-box_professor_mp
 caracterizada
 descaracterizada
 ajustepronuncia
@@ -154,13 +158,19 @@ hifen_ano
 .professor{}
 .url_para_encurta{}
 .pag{}
-.box_aluno{
+.d0box_aluno{
     padding: 0.5em 0 1em 0;
 }
-.box_professor_mp{
+.d0box_geralmp{}
+.d0box_especificompu{
     background: var(--manualu);
     padding: 0 1em 1em 1em;
 }
+.d0box_resolucoesmp{}
+.d0box_respostas{}
+
+
+
 .caracterizada{}
 .descaracterizada{}
 .ajustepronuncia{}
@@ -197,7 +207,6 @@ hifen_ano
 .hifen_ano{
     margin-left: -8px;
 }
-
 
 
 /* Visual do número da página */
@@ -240,6 +249,7 @@ header .pag {
 
 .col2d{}
 
+
 /* Alinhamento vertical */
 .coltop {
     align-items: flex-start;
@@ -266,6 +276,26 @@ header .pag {
 .imgmiddle {
     vertical-align: middle;
 }
+/* ALINHA REPERTÓRIO E MARCADOR */
+
+.alinhamarcador2{
+    width: calc(100% - 3em) !important; 
+    margin-left:3em !important;
+} 
+.alinhamarcador{
+    max-width: 90% !important;
+    margin-left:3em !important;
+} 
+
+.alinhapalavras{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 colunas de tamanho igual */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+.semalinha{
+    margin-left: 0 !important;
+}
 
 /* ALINHAMENTO DE TEXTO  */
 .esquerda tr td,
@@ -291,6 +321,7 @@ header .pag {
 .justificado {
     text-align: justify;
 }
+
 
 .largura25 {
     width: 25% !important;
@@ -348,10 +379,6 @@ header .pag {
 
 /*👉 ================ SUMÁRIO / APRESENTAÇÃO E CONHEÇA LT ==================👈*/
 /* 
-secsumario
-sumariosecinicial
-navsumario
-
 p1sumariopv
 p1seciniciaistit1
 p1seciniciaistit2
@@ -371,7 +398,7 @@ p1sumariooedpeso1
 p1sumariooedpeso2
 
 */
-
+.p1sumariopv{}
 .p1seciniciaistit1{}
 .p1seciniciaistit2{}
 .p1sumariopeso1pv{}
@@ -487,6 +514,17 @@ p1tabelatextoitemcont
     height: 40px;
 }
 
+/* ESQUEMA */
+/* 
+p1esquematit
+o2esquemabox
+*/
+.p1esquematit{
+    font-family: var(--titulo);
+    font-size: var(--peso7);
+    font-weight: bold;
+}
+.o2esquemabox{}
 
 /* GRÁFICOS */
 /* 
@@ -560,6 +598,18 @@ p1sec7tit1
 p1sec7tit2
 p1sec7tit3
 p1sec7tit4
+p1sec8tit1
+p1sec8tit2
+p1sec8tit3
+p1sec8tit4
+p1sec9tit1
+p1sec9tit2
+p1sec9tit3
+p1sec9tit4
+p1sec10tit1
+p1sec10tit2
+p1sec10tit3
+p1sec10tit4
 */
 .p1sec1tit1{}
 .p1sec1tit2{}
@@ -595,6 +645,21 @@ p1sec7tit4
 .p1sec7tit2{}
 .p1sec7tit3{}
 .p1sec7tit4{}
+
+.p1sec8tit1{}
+.p1sec8tit2{}
+.p1sec8tit3{}
+.p1sec8tit4{}
+
+.p1sec9tit1{}
+.p1sec9tit2{}
+.p1sec9tit3{}
+.p1sec9tit4{}
+
+.p1sec10tit1{}
+.p1sec10tit2{}
+.p1sec10tit3{}
+.p1sec10tit4{}
 
 /*👉 SUGESTÕES COMPLEMENTARES 👈*/
 /* 
@@ -662,6 +727,8 @@ p2referenciasbibliocoment
 p2textosemrecuo
 p2textosemrecuoitem
 p2textosemrecuoitemcont
+p2textosemrecuosubitem
+p2textosemrecuosubitemcont
 p2textonumsemrecuo
 p2textomarcadorsemrecuo
 p2textomarcadorsemrecuocont
@@ -673,10 +740,13 @@ p2textosemrecuonumitemcont
 p2textosemrecuonumletra
 p2textosemrecuonumletracont
 p2textosemrecuoletra
+p2textosemrecuoletracont
 */
 .p2textosemrecuo,
 .p2textosemrecuoitem,
 .p2textosemrecuoitemcont,
+.p2textosemrecuosubitem,
+.p2textosemrecuosubitemcont,
 .p2textonumsemrecuo,
 .p2textomarcadorsemrecuo,
 .p2textomarcadorsemrecuocont,
@@ -686,7 +756,9 @@ p2textosemrecuoletra
 .p2textosemrecuonumitem,
 .p2textosemrecuonumitemcont,
 .p2textosemrecuonumletra,
-.p2textosemrecuonumletracont{
+.p2textosemrecuonumletracont,
+.p2textosemrecuoletra,
+.p2textosemrecuoletracont{
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
@@ -710,6 +782,23 @@ p.p2textosemrecuoitem::before {
 .p2textosemrecuoitemcont{
     margin: 0.5em 0 0.5em 1em;
 }
+ul.p2textosemrecuosubitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2em;
+}
+p.p2textosemrecuosubitem{
+    margin: 0.5em 0 0.5em 2em;
+}
+p.p2textosemrecuosubitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+.p2textosemrecuosubitemcont{
+    margin: 0.5em 0 0.5em 2em;
+}
+
 .p2textonumsemrecuo{
     margin: 0.5em 0 0.5em 2em;
 }
@@ -756,7 +845,9 @@ p.p2textosemrecuonumitem::before{
 .p2textosemrecuoletra {
     margin: 0.5em 0 0.5em 2em;
 }
-
+.p2textosemrecuoletracont{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 /* TEXTO PRINCIPAL */
 /* 
@@ -772,6 +863,7 @@ p2textoletracont
 p2textoletraitem
 p2textoletraitemcont
 p2textomarcador
+p2textomarcadorcont
 p2textomarcadorromano
 p2textomarcadorletra
 p2textomarcadorletracont
@@ -792,6 +884,7 @@ p2textomarcadorsubitemcont
 .p2textoletraitem,
 .p2textoletraitemcont,
 .p2textomarcador,
+.p2textomarcadorcont,
 .p2textomarcadorromano,
 .p2textomarcadorletra,
 .p2textomarcadorletracont,
@@ -884,6 +977,9 @@ p.p2textoletraitem::before {
 }
 
 .p2textomarcador{
+    margin: 0.5em 0 0.5em 50px;
+}
+.p2textomarcadorcont{
     margin: 0.5em 0 0.5em 50px;
 }
 .p2textomarcadorromano{
@@ -1313,9 +1409,13 @@ p3intermediarionumero
 p3intermediarionumerocont
 p3intermediariomarcador
 p3intermediariomarcadorcont
+p3intermediariomarcadorromano
 p3intermediariomarcadoritem
 p3intermediariomarcadoritemcont
 p3intermediariosemrecuo
+p3intermediariosemrecuomarcador
+p3intermediariosemrecuomarcadorcont
+p3intermediariosemrecuomarcadorromano
 p3intermediariosemrecuoitem
 p3intermediariosemrecuoitemcont
 p3intermediariosemrecuoletra
@@ -1335,9 +1435,13 @@ p3intermediariosemrecuonumerocont
 .p3intermediarionumerocont,
 .p3intermediariomarcador,
 .p3intermediariomarcadorcont,
+.p3intermediariomarcadorromano,
 .p3intermediariomarcadoritem,
 .p3intermediariomarcadoritemcont,
 .p3intermediariosemrecuo,
+.p3intermediariosemrecuomarcador,
+.p3intermediariosemrecuomarcadorcont,
+.p3intermediariosemrecuomarcadorromano,
 .p3intermediariosemrecuoitem,
 .p3intermediariosemrecuoitemcont,
 .p3intermediariosemrecuoletra,
@@ -1404,6 +1508,7 @@ p.p3intermediarioitem::before{
 .p3intermediariomarcadorcont{
     margin: 0.5em 0 0.5em 2em;
 }
+.p3intermediariomarcadorromano{}
 ul.p3intermediariomarcadoritem{
     list-style: disc;
     margin: 0.5em 0 0.5em 3em;
@@ -1419,6 +1524,11 @@ p.p3intermediariomarcadoritem{
 .p3intermediariosemrecuo{
     margin: 0.5em 0;
 }
+.p3intermediariosemrecuomarcador{}
+.p3intermediariosemrecuomarcadorcont{}
+.p3intermediariosemrecuomarcadorromano{}
+
+
 ul.p3intermediariosemrecuoitem{
     list-style: disc;
     margin: 0.5em 0 0.5em 1.5em;
@@ -1461,6 +1571,7 @@ p3citacaotit2
 p3citacaoolho
 p3citacaosemrecuo
 p3citacao
+p3citacaopoema
 p3citacaoitem
 p3citacaoitemcont
 p3citacaoletra
@@ -1474,6 +1585,7 @@ p3citacaonumerocont
 .p3citacaoolho,
 .p3citacaosemrecuo,
 .p3citacao,
+.p3citacaopoema,
 .p3citacaoitem,
 .p3citacaoitemcont,
 .p3citacaoletra,
@@ -1481,7 +1593,7 @@ p3citacaonumerocont
 .p3citacaonumero,
 .p3citacaonumerocont{
     font-family: var(--citacao);
-    font-size: var(--pesoPadrao);
+    font-size: var(--peso7);
 }
 
 .p3citacaomanchete{
@@ -1514,7 +1626,6 @@ p3citacaonumerocont
 
 .p3citacaoolho{
     font-style: italic;
-    font-weight: 200;
     text-align: center;
     margin: 0.5em 0;
 }
@@ -1524,7 +1635,8 @@ p3citacaonumerocont
     font-family: var(--citacao);
     text-align: justify;
     margin: 0.5em 0;
-} /* TODO: ELEMENTO NOVO */
+} 
+/* TODO: ELEMENTO NOVO */
 
 .p3citacao{
     font-family: var(--pesoPadrao);
@@ -1534,6 +1646,9 @@ p3citacaonumerocont
     margin: 0.5em 0;
 }
 
+.p3citacaopoema{
+    margin: 0.5em 0 0.5em 1em;
+}
 ul.p3citacaoitem{
     list-style: disc;
     margin: 0.5em 0 0.5em 1em;
@@ -1575,11 +1690,17 @@ blockquote.p3citacaoitem::before {
 
 /*👉==================== TEXTOS PESO: menor ===========================👈*/
 /* Ícone OED */
+/* 
+p4iconeoed
+p4iconeoed2
+*/
 .p4iconeoed{}
+.p4iconeoed2{}
 
 /* Legenda */
-.p4legenda{
-    
+.p4legenda{}
+.p4legendanegativo{
+    color: var(--corprof);
 }
 
 /* Crédito geral */
@@ -1616,6 +1737,7 @@ blockquote.p3citacaoitem::before {
     font-size: var(--pesoMenor);
     text-align: right;
 }
+.p4credimagemresposta{}
 
 /* Cuidado dica */
 .p4cuidadodica{
@@ -1655,6 +1777,14 @@ p4resposta
     margin: 0.2em 0;
 }
 
+/* Página */
+/* 
+p5paginacao
+p5paginacaoextenso
+*/
+.p5paginacao{}
+.p5paginacaoextenso{}
+
 /*👉TEXTOS SUPORTE👈*/
 /* Balão de fala */
 /* 
@@ -1670,25 +1800,29 @@ p5balao
 /* 
 p5figuraespacamentogabreso
 */
-.p5figuraespacamentogabreso{}
+.p5figuraespacamentogabreso{
+    margin: 0.5em 0;
+}
 
 /* MARCADORES */
 /* 
 p5marcador
 p5marcadornegativo
+p5marcadorromano
 p5marcador2
 p5marcador2negativo
+p5marcador2romano
 p5marcadorcaixa
 p5marcadorcaixanegativo
 p5marcadorcaixa2
 p5marcadorcaixa2negativo
 p5marcadorcaixa3
 p5marcadorcaixa3negativo
-p5marcadorromano
 p5marcadorquestao
 */
 .p5marcador{
     background: var(--preto);
+    font-family: var(--texto);
     color: var(--branco);
     font-weight: bold;
     height: 25px;
@@ -1698,6 +1832,17 @@ p5marcadorquestao
     width: 25px;
 }
 .p5marcadornegativo{}
+.p5marcadorromano{
+    background: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 -40px;
+    width: 35px;
+    padding: 0 4px;
+}
 
 .p5marcador2{
     background: var(--preto);
@@ -1709,7 +1854,19 @@ p5marcadorquestao
     margin: 0 0 0 -30px;
     width: 25px;
 }
-
+.p5marcador2negativo{}
+.p5marcador2romano{
+    background: var(--amarelo3);
+    border-radius: 0.4em;
+    color: var(--preto);
+    font-weight: bold;
+    height: 28px;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 -40px;
+    width: 35px;
+    padding: 4px 0px 0 0px;
+}
 figure>.p5marcador {
     background: var(--preto);
     color: var(--branco);
@@ -1720,10 +1877,6 @@ figure>.p5marcador {
     position: static;
     width: 25px;
 }
-
-
-.p5marcador2negativo{}
-
 .p5marcadorcaixa{
     background: var(--verde1);
     border-radius: 0em 0 0 0;
@@ -1752,14 +1905,13 @@ figure>.p5marcador {
 .p5marcadorcaixa3{}
 .p5marcadorcaixa3negativo{}
 
-.p5marcadorromano{}  
+
 .p5marcadorquestao{
     background: var(--preto);
     color: var(--branco);
     font-weight: bold;
     text-align: center;
     padding: 2px;
- 
 }
 
 /* ABERTURA DE CAPITULO */
@@ -1774,6 +1926,17 @@ p5aberturaobjtexto
 
 /*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
 /* 
+d0secsumario
+d0sumariosecinicial
+d0navsumario
+
+d0orientacaousooed
+d0groupline
+d0grouptit
+d0icoatencao
+d0sumariosecinicial
+d0semfundo
+d0bgbranco
 d0boxabertura
 d0boxabertura2
 d0imgabertura
@@ -1797,8 +1960,27 @@ d0name
 d0texto
 d0hora
 d0textarea
-d0input 
+d0input
+d0carimbo 
+d0linha
+d0boxpoema
+d0separabloco
+
 */
+.d0secsumario{}
+.d0sumariosecinicial{}
+.d0navsumario{}
+
+.d0orientacaousooed{}
+.d0groupline{}
+.d0grouptit{}
+.d0icoatencao{}
+.d0sumariosecinicial{}
+.d0boxsumariotit{}
+.d0semfundo{}
+.d0bgbranco{
+    background: var(--branco);
+}
 .d0boxabertura{}
 .d0boxabertura2{}
 .d0imgabertura{}
@@ -1823,7 +2005,94 @@ d0input
 .d0texto{}
 .d0hora{}
 .d0textarea{}
-.d0input{} 
+.d0input{}
+.d0carimbo{}
+.d0carimbo::after{
+    background: url(../images/pv_modelo.svg) no-repeat;
+    content: '';
+    background-size: 100%;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin: 0 0 0 0;
+    z-index: 10;
+}
+.d0linha{
+    border-bottom: 1px solid black;
+    width: 50%;
+    display: inline-block;
+    max-width: 100%;
+}
+.d0boxpoema{
+    padding: 1em 3em !important;    
+ }
+.d0boxpoema>blockquote{
+    line-height: 2em;
+}
+.d0separabloco{
+    margin: 2em 0 0 0 !important;
+}
+
+
+
+/*👉ESTILOS DIGITAL: página crédito👈*/
+/* 
+d1pagecreditos
+d1nomeautor
+d1cargoresponsavel1
+d1cargoresponsavel2
+d1fichacatalografica
+d1infoeditora
+d1infoimpressao
+*/
+
+.d1pagecreditos{
+    border: 1px solid var(--preto);
+    padding: 1em 1.5em;
+}
+.d1pagecreditos+.descaracterizada{
+    border: 1px solid var(--preto);
+    padding: 1em 1.5em;
+    min-height: 800px;
+}
+.d1nomeautor{
+    margin: 1em 0 0.5em 0;
+}
+.d1cargoresponsavel1{
+    margin: 1.5em 0;
+}
+.d1cargoresponsavel2{
+    margin: 1.5em 0;
+}
+.d1fichacatalografica{}
+.d1infoeditora{
+    text-align: center;
+    margin: 1.5em 0;
+}
+.d1infoimpressao{
+    text-align: center;
+    margin: 1.5em 0;
+}
+.d1infoimpressao>p:first-child{
+    border: 1px solid var(--preto);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+/*👉ESTILOS DIGITAL: atividades adaptadas👈*/
+/* 
+d2boxadaptacaoconteudo
+d2boxadaptaprof
+d2boxadaptaaluno
+d2adaptadatit
+*/
+.d2boxadaptacaoconteudo{}
+.d2boxadaptaprof{}
+.d2boxadaptaaluno{}
+.d2adaptadatit{}
+
+
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
 /* Sumário */
@@ -1843,6 +2112,8 @@ c0sumariosecao5
 
 /* Geral */
 /* 
+c0destaqueoed
+c0destaqueoed2
 c0destaqueletra
 c0destaqueletracitacao
 c0destaquenumero
@@ -1852,10 +2123,12 @@ c0destaquequestaonumero
 c0destaquesomatoria
 c0bulletnumitem
 c0bulletsubitem  👉Estilo de caracter utilizado no manual em U 
+c0destaqueuni
 c0destaquecap 👉Estilo de caracter utilizado no sumário mp  
 c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
 */
-
+.c0destaqueoed{}
+.c0destaqueoed2{}
 
 .c0destaqueletra{
     font-weight: bold;
@@ -1918,7 +2191,7 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
   text-align: center;
 }
 .c0bulletsubitem{} /* Estilo de caracter utilizado no manual em U */ 
-
+.c0destaqueuni{}
 .c0destaquecap{}/* Estilo de caracter utilizado no sumário mp */ 
 .c0destaquesecao{}/* Estilo de caracter utilizado no sumário mp */ 
 
@@ -1945,14 +2218,11 @@ c1citacaobolditalico
 
 .c1citacaobold{
     font-weight: bold;
-    color: var(--corprof);
 }
 .c1citacaoitalico{
-    color: var(--corprof);
     font-style: italic;
 }
 .c1citacaobolditalico{
-    color: var(--corprof);
     font-style: italic;
     font-weight: bold;
 }
@@ -1984,6 +2254,7 @@ c3idioma
 c3idiomabold
 c3idiomaitalico
 c3idiomabolditalico
+c3idiomasimuladorhiperlink
 */
 .c3idioma{
     background: var(--vermelho2);
@@ -1997,6 +2268,11 @@ c3idiomabolditalico
 .c3idiomabolditalico{
     font-weight: bold;
     font-style: italic;
+}
+.c3idiomasimuladorhiperlink{
+    color: var(--link);
+    font-size: var(--pesoPadrao);
+    text-decoration: underline;
 }
 
 /* (exceção no INDD - overprint) */ 
@@ -2034,23 +2310,50 @@ c3idiomavocabulariodestaqueitalico
 
 /*👉C4: Estilos de Suporte👈*/
 /* 
+c4cifrao
+c4fonema
 c4lacuna
 c4ordinal
+c4ordinalbold
 c4ordinalnegativo
 c4ordinalresposta
+c4ordinalrespostabold
 c4simuladorhiperlink
 c4linhalacunaresposta
 c4vocabulariodestaque
 c4vocabulariodestaqueitalico
 c4glossariodestaque
 c4glossariodestaqueitalico
+c4textotachado
 */
-.c4lacuna{}
+.c4cifrao{}
+.c4fonema{
+    font-family: var(--fonema);
+}
+.c4lacuna{
+    font-family: var(--ordinal);
+    font-size: 1.4em;
+    vertical-align: baseline;
+}
 .c4ordinal{
     font-family: var(--ordinal);
 }
-.c4ordinalnegativo{}
-.c4ordinalresposta{}
+.c4ordinalbold{
+    font-family: var(--ordinal);
+    font-weight: bold;
+}
+.c4ordinalnegativo{
+    font-family: var(--ordinal);
+}
+.c4ordinalresposta{
+    color: var(--corprof);
+    font-family: var(--ordinal);
+}
+.c4ordinalrespostabold{
+    color: var(--corprof);
+    font-family: var(--ordinal);
+    font-weight: bold;
+}
 .c4simuladorhiperlink{
     color: var(--link);
     font-size: var(--pesoPadrao);
@@ -2069,11 +2372,15 @@ c4glossariodestaqueitalico
 .c4glossariodestaque{}
 .c4glossariodestaqueitalico{}
 
+.c4textotachado{
+    text-decoration: line-through;
+}
 
-/*👉C4: Estilos de  👈*/
+/*👉C5: Estilos de  👈*/
 .c5destaqueverbetedicionario{
     color: var(--link);
 }
+.c5indicacao{}
 
 
 
@@ -2092,21 +2399,25 @@ c4glossariodestaqueitalico
 o0mpg
 o0facsimile
 o0secconheca
-o0secapresentacao
 o0secconheca2
+o0secconheca3
+o0secapresentacao
 o0aberturabox
 o0aberturaatvbox
 o0aberturaobjbox
 o0aberturalegenda
 o0aberturaimgmini
-o0aberturarespostas
+o0secrespostas
 o0sec1
 o0sec2
 o0sec3
 o0sec4
 o0sec5
-o0sec6  👉 Cynthia: atualizar lista de stilos 
+o0sec6
 o0sec7
+o0sec8
+o0sec9
+o0sec10
 o0sec1a
 O0Sec2a
 o0sec3a
@@ -2114,32 +2425,49 @@ o0sec4a
 o0sec5a
 o0sec6a
 o0sec7a
+o0sec8a
+o0sec9a
+o0sec10a
 o0sec1box
+o0sec1box2
 o0sec2box
+o0sec2box2
 o0sec3box
+o0sec3box2
 o0sec4box
+o0sec4box2
 o0sec5box
+o0sec5box2
 o0sec6box
+o0sec6box2
 o0sec7box
+o0sec7box2
+o0sec8box
+o0sec8box2
+o0sec9box
+o0sec9box2
+o0sec10box
+o0sec10box2
 o0parasabermais
 o0referencias
+o0pronuncia
 o0sugestcomp
-o0recadoimagembox
-o0medidaanimalbox
+o4medidaanimalbox
 o0boxpalavra
 o0pronunciation 👉 Especifico de inglês
 */
 .o0mpg{}
 .o0facsimile{}
 .o0secconheca{}
-.o0secapresentacao{}
 .o0secconheca2{}
+.o0secconheca3{}
+.o0secapresentacao{}
 .o0aberturabox{}
 .o0aberturaatvbox{}
 .o0aberturaobjbox{}
 .o0aberturalegenda{}
 .o0aberturaimgmini{}
-.o0aberturarespostas{}
+.o0secrespostas{}
 .o0sec1{}
 .o0sec2{}
 .o0sec3{}
@@ -2147,6 +2475,9 @@ o0pronunciation 👉 Especifico de inglês
 .o0sec5{}
 .o0sec6{}  
 .o0sec7{}
+.o0sec8{}
+.o0sec9{}
+.o0sec10{}
 .o0sec1a{}
 .o0sec2a{}
 .o0sec3a{}
@@ -2154,18 +2485,34 @@ o0pronunciation 👉 Especifico de inglês
 .o0sec5a{}
 .o0sec6a{}  
 .o0sec7a{}
+.o0sec8a{}
+.o0sec9a{}
+.o0sec10a{}
 .o0sec1box{}
+.o0sec1box2{}
 .o0sec2box{}
+.o0sec2box2{}
 .o0sec3box{}
+.o0sec3box2{}
 .o0sec4box{}
+.o0sec4box2{}
 .o0sec5box{}
-.o0sec6box{}  
+.o0sec5box2{}
+.o0sec6box{}
+.o0sec6box2{}
 .o0sec7box{}
+.o0sec7box2{}
+.o0sec8box{}
+.o0sec8box2{}
+.o0sec9box{}
+.o0sec9box2{}
+.o0sec10box{}
+.o0sec10box2{}
 .o0parasabermais{}
 .o0referencias{}
+.o0pronuncia{}
 .o0sugestcomp{}
-.o0recadoimagembox{}
-.o0medidaanimalbox{}
+.o4medidaanimalbox{}
 .o0boxpalavra{
     display: flex;
     flex-direction: row;
@@ -2207,8 +2554,11 @@ o1boxfundoturquesa2
 o1fioindicacaoroxo1
 o1fioindicacaoverde1
 o1boxfioroxo1
+o1boxfioazul1
+o1boxfioverde1
 o1fiocotapreto
 o1setaroxo1
+o1setaazul1
 o1setaverde1
 o1contornoimagem  👉 Cynthia: atualizar lista de stilos
 o1acabamentoimagem
@@ -2230,13 +2580,18 @@ o1zoomcontorno
 .o1fioindicacaoroxo1{}
 .o1fioindicacaoverde1{}
 .o1boxfioroxo1{}
+.o1boxfioazul1{}
+.o1boxfioverde1{}
 .o1fiocotapreto{}
 .o1setaroxo1{}
+.o1setaazul1{}
 .o1setaverde1{}
 .o1contornoimagem{
     border: 1px solid var(--preto);
 }
-.o1acabamentoimagem{}
+.o1acabamentoimagem{
+    border-radius: 1em;
+}
 .o1contornoimagembranco{}
 .o1zoomcontorno{}
 
@@ -2290,14 +2645,19 @@ o4atencaobox
 o4conceitobox
 o4avaliacaobox
 o4vocabulariobox
+o4glossariobox
 o4etapabox
 o4exemplobox
 o4intermediariobox
 o4destaquepalavrabox
 o4destaquepalavrafio
-o4recadoimagemcinza
-o4recadoimagembranco
-o4recadoimagemvermelho
+o4recadoimagem1
+o4recadoimagem2
+o4recadoimagem3
+o4recadoimagem4
+o4tipofrase1
+o4tipofrase2
+o4tipofrase3
 */
 .o4questaobox{}
 .o4ficha{}
@@ -2366,6 +2726,7 @@ span.o4ficha2 {
 .o4boxmateriais{
     margin: 1em 0;
 }
+.o4balao{}
 .o4balao, .o4balaopensamento {
     background: var(--amarelo2);
     border-radius: 2em ;
@@ -2412,7 +2773,7 @@ span.o4ficha2 {
     position: absolute;
     margin: 15px 0 0 40px;
 }
-
+.o4balaobranco{}
 .o4balaobranco, .o4balaopensamentobranco  {
     background: var(--branco);
     border-radius: 2em ;
@@ -2478,14 +2839,19 @@ span.o4ficha2 {
 }
 .o4avaliacaobox{}
 .o4vocabulariobox{}
+.o4glossariobox{}
 .o4etapabox{}
 .o4exemplobox{}
 .o4intermediariobox{}
 .o4destaquepalavrabox{}
 .o4destaquepalavrafio{}
-.o4recadoimagemcinza{}
-.o4recadoimagembranco{}
-.o4recadoimagemvermelho{}
+.o4recadoimagem1{}
+.o4recadoimagem2{}
+.o4recadoimagem3{}
+.o4recadoimagem4{}
+.o4tipofrase1{}
+.o4tipofrase2{}
+.o4tipofrase3{}
 
 /*👉O5: Papeletas e papelaria👈*/
 /* 
@@ -2506,6 +2872,7 @@ o5prancheta
 o5lousa
 o5quadrobranco
 o5moldura
+o5navegadorfundobranco
 o5navegadorbarra
 o5navegadorfundo
 o5verbetedicionario
@@ -2535,6 +2902,7 @@ o5redesocial2
 .o5lousa{}
 .o5quadrobranco{}
 .o5moldura{}
+.o5navegadorfundobranco{}
 .o5navegadorbarra{}
 .o5navegadorfundo{}
 .o5verbetedicionario{}
@@ -2564,18 +2932,80 @@ o6fluxogramadecisao
 /* 
 oemestrategias
 oemestrategias2
+oemestrategias3
 oemamplieseurepertoriobox
 */
 .oemestrategias{}
 .oemestrategias2{}
+.oemestrategias3{}
 .oemamplieseurepertoriobox{}
 
+/* ESTILOS ESPECIFICOS */
+.e0altura{
+    min-height: 50px;
+}
 
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/
 @media screen and (min-width: 300px) and (max-width: 700px) {
-    main{
+     main {
         max-width: 100%;
+        margin: 0 10px;
+    }
+
+      /* COLUNAS E ALINHAMENTO */
+      .col2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col2c {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 16px;
+        max-width: 100%;
+    }
+
+    .col2s {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 16px;
+    }
+
+    .largura25 {
+        width: 100% !important;
+    }
+
+    .largura45 {
+        width: 100% !important;
+    }
+
+    .largura33 {
+        width: 100% !important;
+    }
+
+    .d0box_aluno {
+        padding: 0.5em 0 1em 0;
+    }
+    .alinhamarcador{
+        max-width: 81% !important;
+        margin-left:3em !important;
+    } 
+    .alinhapalavras{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 6 colunas de tamanho igual */
+        gap: 10px; /* Espaçamento entre os itens */
+    }
+
+    /*👉TABELA MOBILE 👈*/
+    table, thead, tbody, th, td, tr{
+        display: block;
     }
 }
 
