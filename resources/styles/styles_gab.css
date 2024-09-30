@@ -26,16 +26,43 @@ p0tit3gabnegativo
 
 .p0tit1gab{
     font-size: var(--peso1);
+    font-family: var(--titulo);
+
+    font-weight: bold;
+    color: var(--fiscor1B);
+    width: max-content;
+    max-width: max-content;
+    margin: 0.5em 0 0.5em 0;
+      margin-left: 0px;
+    background: #FFB52F;
+    box-shadow: 4px 4px 0 var(--fiscor2B), -10px 0 0 0 transparent, 4px 4px 0 var(--fiscor2B), 0 -10px 0 0 transparent;
+    padding: 0.2em 1em;
+    margin-left: 1em;
 }
 .p0tit1gabnegativo{}
 
 .p0tit2gab{
-    font-size: var(--peso2);
+    font-size: var(--peso3);
+    font-family: var(--titulo);
+    font-weight: bold;
+    color: var(--fiscor1B);
+    margin: 1em 0 0.5em 0;
 }
 .p0tit2gabnegativo{}
 
 .p0tit3gab{
     font-size: var(--peso3);
+    font-family: var(--titulo);
+    font-weight: bold;
+    color: var(--fiscor2A);
+    margin: 1em 0 0.5em 0;
+}
+.p0tit4gab{
+    font-size: var(--peso4);
+    font-family: var(--titulo);
+    font-weight: bold;
+    color: var(--fiscor2C);
+    margin: 1em 0 0.5em 0;
 }
 .p0tit3gabnegativo{}
 
