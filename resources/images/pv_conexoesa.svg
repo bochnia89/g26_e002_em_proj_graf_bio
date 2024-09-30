@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="609" height="70" viewBox="0 0 609 70">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_65" data-name="Retângulo 65" width="609" height="70" transform="translate(76 2381)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Caminho_641" data-name="Caminho 641" d="M0,0H609.448V-112.252H0Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Retângulo_58" data-name="Retângulo 58" width="1190.549" height="108.437" transform="translate(-581.1 -194.999)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="Retângulo_59" data-name="Retângulo 59" width="1190.55" height="99.875" transform="translate(-581.101 -186.437)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect id="Retângulo_60" data-name="Retângulo 60" width="1190.55" height="60.875" transform="translate(-581.101 -69.611)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="pv_conexoesa" transform="translate(-76 -2381)" clip-path="url(#clip-path)">
+    <g id="Grupo_501" data-name="Grupo 501" transform="translate(76.001 2488.504)">
+      <g id="Grupo_487" data-name="Grupo 487" clip-path="url(#clip-path-2)">
+        <g id="Grupo_486" data-name="Grupo 486" opacity="0.4">
+          <g id="Grupo_485" data-name="Grupo 485">
+            <g id="Grupo_484" data-name="Grupo 484" clip-path="url(#clip-path-3)">
+              <path id="Caminho_640" data-name="Caminho 640" d="M-581.1-86.562H609.449V-195H-581.1Z" fill="#87c846"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_488" data-name="Grupo 488" transform="translate(0 -112.252)">
+        <path id="Caminho_642" data-name="Caminho 642" d="M0,0V53.752H128.4l19.5,19.5h234l19.5-19.5h156l19.5,19.5h32.55V0Z" fill="#5ebf48"/>
+      </g>
+      <g id="Grupo_497" data-name="Grupo 497" clip-path="url(#clip-path-2)">
+        <g id="Grupo_492" data-name="Grupo 492" opacity="0.4">
+          <g id="Grupo_491" data-name="Grupo 491">
+            <g id="Grupo_490" data-name="Grupo 490" clip-path="url(#clip-path-5)">
+              <g id="Grupo_489" data-name="Grupo 489" transform="translate(463.445 -186.437)">
+                <path id="Caminho_643" data-name="Caminho 643" d="M0,0-78,78H-319.092l-78-78H-507l-19.5,19.5h-163.1L-709.094,0H-780l-78,78h-78l-19.5,19.5h-89.047v2.375h90.03l19.5-19.5h78l78-78h68.939l19.5,19.5h165.061l19.5-19.5h107.939l78,78H-77.016l78-78H108.923l19.5,19.5H146V19.5h-16.6L109.907,0Z" fill="#9dd271"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Grupo_496" data-name="Grupo 496" opacity="0.4">
+          <g id="Grupo_495" data-name="Grupo 495">
+            <g id="Grupo_494" data-name="Grupo 494" clip-path="url(#clip-path-6)">
+              <g id="Grupo_493" data-name="Grupo 493" transform="translate(396.868 -69.61)">
+                <path id="Caminho_644" data-name="Caminho 644" d="M0,0-19.5,19.5H-244.438L-263.939,0H-506.86L-565.5,58.5H-868.438l-39-39H-977.97v2.375h69.548l39,39h304.9l58.639-58.5h240.955l19.5,19.5H-18.517l19.5-19.5h211.6V0Z" fill="#9dd271"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_498" data-name="Grupo 498" transform="translate(555.008 -112.252)">
+        <path id="Caminho_646" data-name="Caminho 646" d="M0,0-19.129,19.128H-555.008v9.749H-15.089L13.789,0Z" fill="#209e47"/>
+      </g>
+      <g id="Grupo_499" data-name="Grupo 499" transform="translate(384.345 -78.162)">
+        <path id="Caminho_647" data-name="Caminho 647" d="M0,0-19.626,19.625h3.535L3.535,0ZM-9.213,0-28.838,19.625H-25.3L-5.678,0Zm-9.212,0L-38.051,19.625h3.536L-14.889,0Zm-9.213,0L-47.263,19.625h3.535L-24.1,0Zm-9.213,0L-56.476,19.625h3.535L-33.316,0Zm-9.212,0L-65.688,19.625h3.535L-42.528,0Zm-9.213,0L-74.9,19.625h3.535L-51.741,0Zm-9.212,0L-84.113,19.625h3.535L-60.953,0ZM-73.7,0-93.327,19.625h3.535L-70.166,0Zm-9.213,0L-102.54,19.625H-99L-79.379,0Zm-9.212,0-19.626,19.625h3.536L-88.59,0Zm-9.213,0-19.626,19.625h3.535L-97.8,0Zm-9.212,0-19.625,19.625h3.535L-107.015,0Zm-9.213,0L-139.39,19.625h3.536L-116.229,0Zm-9.213,0L-148.6,19.625h3.535L-125.442,0Zm-9.212,0-19.626,19.625h3.536L-134.654,0ZM-147.4,0l-19.625,19.625h3.535L-143.867,0Zm-9.212,0-19.625,19.625h3.535L-153.079,0Zm-9.213,0-19.626,19.625h3.536L-162.291,0Zm-9.213,0-19.625,19.625h3.535L-171.505,0Zm-9.212,0-19.625,19.625h3.535L-180.716,0Zm-9.213,0-19.626,19.625h3.536L-189.93,0Zm-9.211,0L-222.3,19.625h3.535L-199.141,0Zm-9.214,0-16.778,16.777,1.768,1.768L-208.354,0ZM-221.1,0l-12.171,12.171,1.767,1.768L-217.568,0Zm-9.212,0-7.566,7.565,1.768,1.768L-226.78,0Zm-9.213,0-2.959,2.959,1.767,1.768L-235.993,0Zm-5.919,0,.121.121.121-.121Z" fill="#209e47"/>
+      </g>
+      <g id="Grupo_500" data-name="Grupo 500" clip-path="url(#clip-path-2)">
+        <g id="Grupo">
+          <text id="CO" transform="translate(-473.176 -42.2)" fill="#3e1d73" font-size="24" font-family="Video-Bold, Video" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">CO</tspan></text>
+          <text id="NE" transform="translate(-440.704 -42.2)" fill="#3e1d73" font-size="24" font-family="Video-Bold, Video" font-weight="700" letter-spacing="0.049em"><tspan x="0" y="0">NE</tspan></text>
+          <text id="XÕ" transform="translate(-409 -42.2)" fill="#3e1d73" font-size="24" font-family="Video-Bold, Video" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">XÕ</tspan></text>
+          <text id="E" transform="translate(-376.408 -42.2)" fill="#3e1d73" font-size="24" font-family="Video-Bold, Video" font-weight="700"><tspan x="0" y="0">E</tspan></text>
+          <text id="S_co" data-name="S co" transform="translate(-361.336 -42.2)" fill="#3e1d73" font-size="24" font-family="Video-Bold, Video" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">S co</tspan></text>
+          <text id="m" transform="translate(-307.648 -42.2)" fill="#3e1d73" font-size="24" font-family="Video-Bold, Video" font-weight="700"><tspan x="0" y="0">m</tspan></text>
+        </g>
+        <g id="Grupo-2" data-name="Grupo">
+          <text id="_.." data-name=".." transform="translate(-287.563 -42.2)" fill="#3e1d73" font-size="18" font-family="Video-Bold, Video" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">..</tspan></text>
+          <text id="_." data-name="." transform="translate(-276.043 -42.2)" fill="#3e1d73" font-size="18" font-family="Video-Bold, Video" font-weight="700"><tspan x="0" y="0">.</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
